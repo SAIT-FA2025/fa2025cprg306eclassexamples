@@ -34,7 +34,7 @@ export default function ControlledFormComp() {
             bio: dogBio
         }
 
-        alert(`Dog ${dogObj.name} was born on ${dogObj.bDay} and is a ${dogObj.breed}`);
+        alert(`New Dog: ${dogObj.name} was born on ${dogObj.bDay} and is a ${dogObj.breed}`);
     }
 
     let inputStyles = "bg-white border-1 border-blue-600 rounded px-2 py-1 focus:bg-amber-200";
