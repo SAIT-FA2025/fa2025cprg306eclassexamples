@@ -45,12 +45,10 @@ export default function ControlledFormComp() {
             <div className="mb-4">
                 <label className="inline-block w-40">Dog Name:</label>
                 <input name="dog_name" value={dogName} type="text" className="bg-white border-1 border-blue-600 rounded px-2 py-1 focus:bg-amber-200" onChange={handleDogNameChange} />
-
             </div>
             <div className="mb-4">
                 <label className="inline-block w-40">Dog Birthdate:</label>
                 <input type="date" value={dogBirthdate} className={inputStyles} onChange={handleDogBirthdateChange} />
-
             </div>
             <div className="mb-4">
                 <label className="inline-block w-40">Dog Breed:</label>
@@ -71,7 +69,8 @@ export default function ControlledFormComp() {
                     type="submit"
                     className="bg-green-700 text-white rounded cursor-pointer
                      hover:bg-green-600 active:bg-amber-600 transition-colors px-3 py-2">Submit Dog</button>
-                <button type="button" onClick={resetForm}>Reset Form</button>
+                <button type="button" className="bg-blue-700 text-white rounded cursor-pointer
+                     hover:bg-blue-600 active:bg-amber-600 transition-colors px-3 py-2 ml-2" onClick={resetForm}>Reset Form</button>
             </div>
             <div className="italic">
                 <h3>Debug info:</h3>
