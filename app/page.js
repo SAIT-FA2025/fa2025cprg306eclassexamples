@@ -36,6 +36,11 @@ export default function Home() {
             Week 4 - Counter
           </Link>
         </li>
+        <li>
+          <Link className={linkStyles} href="./week-5">
+            Week 5 - Controlled Component
+          </Link>
+        </li>
       </ul>
     </main>
   );
