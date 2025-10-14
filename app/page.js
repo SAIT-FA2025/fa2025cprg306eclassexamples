@@ -41,6 +41,16 @@ export default function Home() {
             Week 5 - Controlled Component
           </Link>
         </li>
+        <li>
+          <Link className={linkStyles} href="./week-6/arrays">
+            Week 6 - Array Methods
+          </Link>
+        </li>
+        <li>
+          <Link className={linkStyles} href="./week-6/list">
+            Week 6 - List Handling
+          </Link>
+        </li>
       </ul>
     </main>
   );

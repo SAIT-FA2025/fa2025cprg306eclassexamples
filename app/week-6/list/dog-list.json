@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "name": "Rover",
+        "age": 3,
+        "breed": "Boxer",
+        "photoUrl": "https://images.dog.ceo/breeds/boxer/n02108089_1619.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Bingo",
+        "age": 2,
+        "breed": "Dachshund",
+        "photoUrl": "https://images.dog.ceo/breeds/dachshund/puppy-1006024_640.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Spot",
+        "age": 4,
+        "breed": "German Shepherd",
+        "photoUrl": "https://images.dog.ceo/breeds/german-shepherd/n02106662_15813.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Winter",
+        "age": 1,
+        "breed": "Labradoodle",
+        "photoUrl": "https://images.dog.ceo/breeds/labradoodle/labradoodle-forrest.jpg"
+    }
+]
