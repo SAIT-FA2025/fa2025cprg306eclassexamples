@@ -61,6 +61,11 @@ export default function Home() {
             Week 7 - State Lifting
           </Link>
         </li>
+        <li>
+          <Link className={linkStyles} href="./week-8/">
+            Week 8 - Data Fetching
+          </Link>
+        </li>
       </ul>
     </main>
   );
