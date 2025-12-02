@@ -76,6 +76,11 @@ export default function Home() {
             Week 10 - Cloud Firestore
           </Link>
         </li>
+        <li>
+          <Link className={linkStyles} href="./week-12/part-1">
+            Week 12 - API Implementation
+          </Link>
+        </li>
       </ul>
     </main>
   );
